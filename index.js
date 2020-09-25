@@ -3,9 +3,9 @@ const title = document.querySelector('.main__name'),
       $body = document.querySelector('body'),
       $header = document.querySelector('.header'),
       $menuNav = document.querySelectorAll('.nav__menu'),
-      $figureCaption = document.querySelectorAll('.figure__caption'),
+      $figureCaption = document.querySelectorAll('.figure__caption');
 
-      
+
 // Animation of the title name
 function typeWriter(element){
   const textArray = element.innerHTML.split('');
