@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -14,8 +14,8 @@
     <section class="container">
       <p class="header__title">Italo Canturil</p>
       <nav class="header__nav">
-        <a href="#" class="nav__menu nav__portfolio">Portfolio</a>
-        <a href="about.html" class="nav__menu nav__sobre">Sobre</a>
+        <p class="nav__menu nav__portfolio">Portfolio</p>
+        <a href="src/about.html" class="nav__menu nav__sobre">Sobre</a>
 
         <button class="nav__button nav__language--BR">BR</button>
         <button class="nav__button nav__language--EN">EN</button>
@@ -23,8 +23,8 @@
         <div class="header__toggle">
           <input type="checkbox" name="checkbox__toggle" class="toggle" id="checkbox__toggle">
           <label class="switch" for="checkbox__toggle">
-            <span class="switch__moon"><img src="img/moon.svg" alt=""></span>
-            <span class="switch__sun"><img src="img/sun.svg" alt="Sun"></span>
+            <span class="switch__moon"><img src="src/img/moon.svg" alt="Moon"></span>
+            <span class="switch__sun"><img src="src/img/sun.svg" alt="Sun"></span>
             <div class="switch__ball"></div>
           </label>
         </div>
@@ -35,7 +35,7 @@
   <section class="container">
     <main class="main">
       <figure class="main__photo">
-        <img class="photo__img" src="img/sorrindo.jpeg" alt="Italo sorrindo">
+        <img class="photo__img" src="src/img/sorrindo.jpeg" alt="Italo sorrindo">
       </figure>
 
       <div class="org">
@@ -46,17 +46,17 @@
       <nav class="main__social">
         <figure>
           <a href="https://www.linkedin.com/in/italo-canturil/">
-          <img src="img/LinkedIn.svg" alt="Linkedin">
+          <img src="src/img/LinkedIn.svg" alt="Linkedin">
         </a>
         </figure>
         <figure>
           <a href=" https://twitter.com/ItaloCantur">
-          <img src="img/Twitter.svg" alt="Twitter">
+          <img src="src/img/Twitter.svg" alt="Twitter">
         </a>
         </figure>
         <figure>
           <a href="https://github.com/Canturilsnaik">
-          <img src="img/github.svg" alt="GitHub">
+          <img src="src/img/github.svg" alt="GitHub">
         </a>
         </figure>
       </nav>
@@ -71,8 +71,8 @@
       <div class="organization">
       <figure class="portfolio__figure">
         <div class="img--box">
-        <a href="#">
-          <img src="img/FireShot Capture 011 - Pomodoro clock - countdown-pomodoro.netlify.app.png" alt="Pomodoro Clock">
+        <a href="https://countdown-pomodoro.netlify.app">
+          <img src="src/img/FireShot Capture 011 - Pomodoro clock - countdown-pomodoro.netlify.app.png" alt="Pomodoro Clock">
         </a>
       </div>
         <figcaption class="figure__caption">Pomodoro Clock</figcaption>
@@ -80,8 +80,8 @@
 
       <figure class="portfolio__figure">
           <div class="img--box">
-            <a href="#">
-              <img src="img/FireShot Capture 019 - Todo List - canturil-todo.netlify.app.png" alt="To do List">
+            <a href="https://canturil-todo.netlify.app">
+              <img src="src/img/FireShot Capture 019 - Todo List - canturil-todo.netlify.app.png" alt="To do List">
             </a>
           </div>
         <figcaption class="figure__caption">To do List</figcaption>
@@ -89,8 +89,8 @@
 
       <figure class="portfolio__figure">
         <div class="img--box">
-        <a href="#">
-          <img src="img/bin2dec.png" alt="Binary to decimal">
+        <a href="https://bin2dec-seven.vercel.app">
+          <img src="src/img/bin2dec.png" alt="Binary to decimal">
         </a>
       </div>
         <figcaption class="figure__caption">Binary to decimal</figcaption>
@@ -98,26 +98,17 @@
 
       <figure class="portfolio__figure">
         <div class="img--box">
-        <a href="#">
-          <img src="img/FireShot Capture 022 - Frontend Mentor - [Challenge Name Here] - dashboard-switcher.netlify.app.png" alt="Dashboard Switcher">
+        <a href="https://dashboard-switcher.netlify.app">
+          <img src="src/img/FireShot Capture 022 - Frontend Mentor - [Challenge Name Here] - dashboard-switcher.netlify.app.png" alt="Dashboard Switcher">
         </a>
       </div>
         <figcaption class="figure__caption">Dashboard Switcher</figcaption>
       </figure>
 
-      <!-- <figure class="portfolio__figure">
-        <div class="img--box">
-        <a href="#">
-          <img src="img/ananda-site.png" alt="Photographer Website">
-        </a>
-      </div>
-        <figcaption class="figure__caption">Photographer Website</figcaption>
-      </figure> -->
-
       <figure class="portfolio__figure">
         <div class="img--box">
-        <a href="#">
-          <img src="img/desktop-sign-up.png" alt="Sing up Challenge">
+        <a href="https://sign-up-challenge-lo6qawdpi.vercel.app/">
+          <img src="src/img/desktop-sign-up.png" alt="Sing up Challenge">
         </a>
         </div>
         <figcaption class="figure__caption">Sing up Challenge</figcaption>
@@ -127,6 +118,7 @@
     </section>
   </section>
 
-  <script src="index.js"></script>
+  <script src="src/index.js"></script>
+  <script src="src/animation.js"></script>
 </body>
 </html>
