@@ -43,9 +43,9 @@ function switchLang(){
       $aboutTitle.textContent = dados[attr].title;
       $description.textContent = dados[attr].description;
       $history.textContent = dados[attr].history;
-    })
-  })
-}
+    });
+  });
+};
 
 switchLang();
 
