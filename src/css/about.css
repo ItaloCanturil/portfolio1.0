@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-.main__title{
+.about__title{
   font-size: 36px;
   margin-bottom: 50px;
   text-decoration: underline;
@@ -26,13 +26,13 @@
 
 .main__about{
   line-height: 30px;
-  font-size: 18px;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
   margin: 0 50px 0 50px;
 }
 
 .main__history{
   line-height: 30px;
-  font-size: 18px;
+  font-size: clamp(1rem, 1.5vw, 2rem); 
   margin: 0 50px 0 50px;
 }
 
