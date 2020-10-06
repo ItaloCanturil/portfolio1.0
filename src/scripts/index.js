@@ -26,7 +26,7 @@ $portfolio.addEventListener('click', () => {
   });
 })
 
-function swithcLang(){
+function switchLang(){
   const $aboutTitle = document.querySelector('.about__title'),
         $description = document.querySelector('.main__about'),
         $history = document.querySelector('.main__history');
@@ -40,16 +40,16 @@ function swithcLang(){
 
       const attr = item.getAttribute('language');
       
-      $aboutTitle.textContent = data[attr].title;
-      $description.textContent = data[attr].description;
-      $history.textContent = data[attr].history;
+      $aboutTitle.textContent = dados[attr].title;
+      $description.textContent = dados[attr].description;
+      $history.textContent = dados[attr].history;
     })
   })
 }
 
-swithcLang()
+switchLang();
 
-let data = {
+let dados = {
   'portugues': {
     'title': 'Sobre',
     'description': 'Um pouco sobre mim: Desde pequeno tenho muita curiosidade quando o assunto é tecnologia e dessa curiosidade surgio a paixão por computadores e games, eu amo ficar horas e horas sentado em frente ao computador jogando, estudando ou assistindo.',

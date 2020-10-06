@@ -13,13 +13,12 @@ function typeWriter(element){
 
 setInterval(() => typeWriter(title), 10000);
 
-function swithcLang(){
+function switchLanguage(){
   const $title = document.querySelector('.main__title'),
         $description = document.querySelector('.main__description'),
         $about = document.querySelector('.nav__sobre');
 
   $language.forEach(item => {
-    console.log(item)
     item.addEventListener('click', () => {
       document.querySelector('.active').classList.remove('active');
 
@@ -34,7 +33,7 @@ function swithcLang(){
   })
 }
 
-swithcLang()
+switchLanguage()
 
 let data = {
   'portugues': {
