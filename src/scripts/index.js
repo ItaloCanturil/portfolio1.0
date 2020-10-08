@@ -31,7 +31,6 @@ function switchLang(){
         $description = document.querySelector('.main__about'),
         $history = document.querySelector('.main__history');
 
-        console.log($description)
   $lang.forEach(item => {
     item.addEventListener('click', () => {
       document.querySelector('.active').classList.remove('active');
