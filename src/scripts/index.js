@@ -3,7 +3,9 @@ const toggleInput = document.querySelector('.toggle'),
       $header = document.querySelector('.header'),
       $figureCaption = document.querySelectorAll('.figure__caption'),
       $portfolio = document.querySelector('.nav__portfolio'),
-      $lang = document.querySelectorAll('.nav__lang');
+      $lang = document.querySelectorAll('.nav__lang'),
+      $svg = document.querySelectorAll('.fig__svg');
+
 
 toggleInput.addEventListener('change', () =>{
   switchTheme();
@@ -13,9 +15,13 @@ function switchTheme(){
   $body.classList.toggle('light--mode');
   $header.classList.toggle('header--light');
 
-  $figureCaption.forEach(item =>{
-    item.classList.toggle('figure__caption--light')
-  })
+  // $figureCaption.forEach(item =>{
+  //   item.classList.toggle('figure__caption--light')
+  // });
+
+  // $svg.forEach(item =>{
+  //   item.classList.toggle('svg-light')
+  // })
 
 }
 
