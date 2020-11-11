@@ -1,0 +1,25 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">New Portfolio</h1>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canturilsnaik/portfolio1.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Canturilsnaik/portfolio1.0/issues"
+  },
+  "homepage": "https://github.com/Canturilsnaik/portfolio1.0#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  }
+}
