@@ -47,7 +47,7 @@ body.light--mode{
   align-items: center;
 }
 
-.nav__menu, .card--1__view{
+.nav__menu{
   color: inherit;
   cursor: pointer;
   margin-right: 10px;
@@ -216,22 +216,23 @@ body.light--mode{
 
 .card--1__view {
   margin-top: 5px;
-  transition: margin .25s;
   position: relative;
+  transition: margin .25s;
 }
 
 .view__svg {
-  height: 40px;
-  width: 65px;
-  position: absolute;
-  transform: translate(-70%, -10px) translateZ(0);
+  cursor: pointer;
   fill: none;
+  height: 30px;
+  position: absolute;
   stroke: var(--stroke, var(--line));
   stroke-linecap: round;
   stroke-width: 2px;
   stroke-dasharray: var(--offset, 65px) 278px;
   stroke-dashoffset: 361px;
+  transform: translate(-70%, -10px) translateZ(0);
   transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+  width: 65px;
 }
 
 .view__svg:hover {
