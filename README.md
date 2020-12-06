@@ -10,6 +10,12 @@
 - HTML5
 - CSS3
 
+## 💡 Next steps:
+
+- [ ] Make a modal for the projects
+- [ ] Delete about page and make one page website  
+- [ ] Make a progressive bar for the skills
+
 ---------
 
 ### Link of project: 
