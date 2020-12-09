@@ -6,6 +6,10 @@
 }
 
 .modal__card {
+  display: none;
+}
+
+.modal__card.modal-show {
   align-items: center;
   background: #404040;
   display: flex;
