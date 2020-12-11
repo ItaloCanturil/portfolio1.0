@@ -163,6 +163,15 @@ body.light--mode{
   fill: var(--dark-mode);
 }
 
+.skills {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
 .portfolio{
   height: 100vh;
   width: 100%;
@@ -176,7 +185,7 @@ body.light--mode{
   height: 80vh;
 }
 
-.portfolio__title{
+.portfolio__title, .skills__title{
   font-size: 36px;
   text-align: center;
   margin-bottom: 50px;
