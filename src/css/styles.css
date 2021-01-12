@@ -214,6 +214,23 @@ body.light--mode{
   height: auto;
 }
 
+.close {
+  width: 100%;
+  text-align: end;
+  margin: 0px 10% 0px 0px;
+}
+
+.card__org {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px
+}
+
+.card__title {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  text-decoration: underline;
+}
+
 .link__img {
   background-image: url(../img/FireShot\ Capture\ 011\ -\ Pomodoro\ clock\ -\ countdown-pomodoro.netlify.app.png);
   background-position: center center;
