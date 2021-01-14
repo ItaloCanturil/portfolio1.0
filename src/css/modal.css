@@ -9,7 +9,18 @@
   display: none;
 }
 
-.modal__card.modal-show, .modal__card--2.modal-show {
+.modal__card.modal-show{
+  align-items: center;
+  background: #404040;
+  display: flex;
+  flex-direction: column;
+  height: 495px;
+  justify-content: center;
+  position: absolute;
+  z-index: 999;
+}
+
+.modal__card--2.modal--2 {
   align-items: center;
   background: #404040;
   display: flex;
