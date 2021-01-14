@@ -173,7 +173,7 @@ body.light--mode{
 .skills__text {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   margin-bottom: 30px;
-  width: 50%;
+  line-height: 150%;
 }
 
 .skills__list {
