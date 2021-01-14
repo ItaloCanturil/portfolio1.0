@@ -27,7 +27,6 @@ function switchLang(){
         $projects = document.querySelector('.portfolio__title'),
         $history = document.querySelector('.main__history');
 
-  console.log($projects)
 
   $lang.forEach(item => {
     item.addEventListener('click', () => {

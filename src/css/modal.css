@@ -5,11 +5,11 @@
   justify-content: center;
 }
 
-.modal__card {
+.modal__card, .modal__card--2 {
   display: none;
 }
 
-.modal__card.modal-show {
+.modal__card.modal-show, .modal__card--2.modal-show {
   align-items: center;
   background: #404040;
   display: flex;
@@ -20,7 +20,7 @@
   z-index: 999;
 }
 
-.card__close {
+.card__close, .card__close--2 {
   cursor: pointer;
 }
 
