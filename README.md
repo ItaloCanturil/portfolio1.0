@@ -12,9 +12,9 @@
 
 ## 💡 Next steps:
 
-- [ ] Make a modal for the projects
-- [ ] Delete about page and make one page website  
-- [ ] Make a progressive bar for the skills
+- [ ] Fix bugs of the reponsive
+- [ ] Press spaces empty
+- [ ] Reduce some texts
 
 ---------
 
