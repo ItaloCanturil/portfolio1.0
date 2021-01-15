@@ -237,6 +237,7 @@ body.light--mode{
   background-image: url(../img/FireShot\ Capture\ 011\ -\ Pomodoro\ clock\ -\ countdown-pomodoro.netlify.app.png);
   background-position: center center;
   background-size: cover;
+  border-radius: 8px;
   height: 300px;
   width: 100%;
   transition: transform 300ms linear;
@@ -246,6 +247,7 @@ body.light--mode{
   background-image: url(../img/habit-tracker.png);
   background-position: center center;
   background-size: cover;
+  border-radius: 8px;
   height: 300px;
   width: 100%;
   transition: transform 300ms linear;

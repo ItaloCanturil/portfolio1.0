@@ -12,6 +12,7 @@
 .modal__card.modal-show{
   align-items: center;
   background: #404040;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   height: 495px;
@@ -23,6 +24,7 @@
 .modal__card--2.modal--2 {
   align-items: center;
   background: #404040;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   height: 495px;
