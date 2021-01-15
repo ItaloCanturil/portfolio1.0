@@ -25,8 +25,8 @@ function switchLang(){
   const $aboutTitle = document.querySelector('.about__title'),
         $description = document.querySelector('.main__about'),
         $projects = document.querySelector('.portfolio__title'),
-        $history = document.querySelector('.main__history');
-
+        $pomodoroDescription = document.querySelector('.card--1__description'),
+        $habitDescription = document.querySelector('.card--2__description');
 
   $lang.forEach(item => {
     item.addEventListener('click', () => {
@@ -38,8 +38,9 @@ function switchLang(){
       
       $aboutTitle.textContent = dados[attr].title;
       $description.textContent = dados[attr].description;
-      $history.textContent = dados[attr].history;
       $projects.textContent = dados[attr].project;
+      $pomodoroDescription.textContent = dados[attr].countdown;
+      $habitDescription.textContent = dados[attr].habit;
     });
   });
 };
@@ -50,14 +51,16 @@ let dados = {
   'portugues': {
     'title': 'Sobre',
     'description': 'Um pouco sobre mim: Desde pequeno tenho muita curiosidade quando o assunto é tecnologia e dessa curiosidade surgio a paixão por computadores e games, eu amo ficar horas e horas sentado em frente ao computador jogando, estudando ou assistindo.',
-    'history': 'Como eu comecei a programar: No meu curso técnico eu fui bolsista de iniciação cientifica onde eu tive contato com a IDE do arduino, codando em C, gostei como as coisas eram feitas e pesquisando mais eu comecei a estudar python porem não gostei muito, logo depois no começo da pandemia eu comecei a estudar a apostila da Caelum de HTML, CSS e Javascript e me apixonei pelas tecnologias Front-end onde o foco dos meu estudos está até hoje',
-    'project': 'Projetos'
+    'project': 'Projetos',
+    'countdown': 'Um cronometro para usar a técnica de estudos Pomodoro',
+    'habit': 'Um projeto parecido com um To-do só que melhorado'
   },
 
   'english': {
     'title': 'About me',
     'description': 'A little about myself: Since I was little I have a lot of curiosity when it comes to technology and from this curiosity arises the passion for computers and games, I love to spend hours and hours sitting at the computer playing, studying or watching.',
-    'history': "How I started programming: In my technical course I got a scientific initiation scholarship where I had contact with the Arduino IDE, coding in C, I liked how things were done and researching more I started studying python but I didn't like it very much, right after the beginning of the pandemic I I started studying Caelum's handout of HTML, CSS and Javascript and I fell in love with Front-end technologies where the focus of my studies is still today.",
-    'project': 'Projects'
+    'project': 'Projects',
+    'countdown': 'A countdown that use the Pomodoro tecnic for studies',
+    'habit': 'A project like a To-do list but better'
   } 
 }
