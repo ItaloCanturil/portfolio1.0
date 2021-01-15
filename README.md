@@ -12,9 +12,9 @@
 
 ## 💡 Next steps:
 
-- [ ] Fix bugs of the reponsive
+- [ ] Translate all texts
 - [ ] Press spaces empty
-- [ ] Reduce some texts
+- [ ] Fix change themes
 
 ---------
 
