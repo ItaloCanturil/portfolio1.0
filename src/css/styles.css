@@ -296,6 +296,15 @@ body.light--mode{
   color: #000;
 }
 
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__author, .footer__description {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 680px){
   .main{
     flex-direction: column;
