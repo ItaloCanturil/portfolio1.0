@@ -15,6 +15,7 @@
 - [ ] Translate all texts
 - [ ] Press spaces empty
 - [ ] Fix change themes
+- [ ] Add preloader
 
 ---------
 
