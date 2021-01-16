@@ -26,6 +26,8 @@ function switchLang(){
         $description = document.querySelector('.main__about'),
         $projects = document.querySelector('.portfolio__title'),
         $pomodoroDescription = document.querySelector('.card--1__description'),
+        $skillsTitle = document.querySelector('.skills__title'),
+        $skillText = document.querySelector('.skills__text'),
         $habitDescription = document.querySelector('.card--2__description');
 
   $lang.forEach(item => {
@@ -41,6 +43,8 @@ function switchLang(){
       $projects.textContent = dados[attr].project;
       $pomodoroDescription.textContent = dados[attr].countdown;
       $habitDescription.textContent = dados[attr].habit;
+      $skillsTitle.textContent = dados[attr].skills;
+      $skillText.textContent = dados[attr].text;
     });
   });
 };
@@ -53,14 +57,18 @@ let dados = {
     'description': 'Um pouco sobre mim: Desde pequeno tenho muita curiosidade quando o assunto é tecnologia e dessa curiosidade surgio a paixão por computadores e games, eu amo ficar horas e horas sentado em frente ao computador jogando, estudando ou assistindo.',
     'project': 'Projetos',
     'countdown': 'Um cronometro para usar a técnica de estudos Pomodoro',
-    'habit': 'Um projeto parecido com um To-do só que melhorado'
+    'habit': 'Um projeto parecido com um To-do só que melhorado',
+    'skills': 'Habilidades',
+    'text': 'Através do meus estudos ganhei uma base sólida das skills do Front-end e com essa base tenho dedicado meu tempo livre para aplicar esses conceitos em cenarios reais e aplicações.'
   },
 
   'english': {
     'title': 'About me',
-    'description': 'A little about myself: Since I was little I have a lot of curiosity when it comes to technology and from this curiosity arises the passion for computers and games, I love to spend hours and hours sitting at the computer playing, studying or watching.',
+    'description': 'A little about myself: Since I was little I have a lot of curiosity when it comes to technology and from this curiosity arises the passion for computers and games, I love to spend hours and hours sitting at the computer studying, playing or watching.',
     'project': 'Projects',
     'countdown': 'A countdown that use the Pomodoro tecnic for studies',
-    'habit': 'A project like a To-do list but better'
+    'habit': 'A project like a To-do list but better',
+    'skills': 'Skills',
+    'text': "Through my studies I've made a strong knowledge base and with it and through dedication I've improved creating real concept projects"
   } 
 }
