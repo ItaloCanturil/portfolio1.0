@@ -12,7 +12,7 @@
 
 ## 💡 Next steps:
 
-- [ ] Translate all texts
+- [x] Translate all texts
 - [ ] Press spaces empty
 - [ ] Fix change themes
 - [ ] Add preloader
