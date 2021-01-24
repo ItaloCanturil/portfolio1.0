@@ -21,6 +21,10 @@
   z-index: 999;
 }
 
+.modal__card.modal--light {
+  background: #c0c2c0;
+}
+
 .modal__card--2.modal--2 {
   align-items: center;
   background: #404040;
@@ -33,6 +37,11 @@
   width: 100%;
   z-index: 999;
 }
+
+.modal__card--2.modal--light-2 {
+  background: #c0c2c0;
+}
+
 
 .card__close, .card__close--2 {
   cursor: pointer;

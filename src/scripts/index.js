@@ -4,7 +4,10 @@ const toggleInput = document.querySelector('.toggle'),
       $figureCaption = document.querySelectorAll('.figure__caption'),
       $portfolio = document.querySelector('.nav__portfolio'),
       $about = document.querySelector('.nav__about'),
-      $lang = document.querySelectorAll('.nav__lang');
+      $social = document.querySelectorAll('.fig__svg'),
+      $lang = document.querySelectorAll('.nav__lang'),
+      $modalOne = document.querySelector('.modal__card'),
+      $modalSecond = document.querySelector('.modal__card--2');
 
 toggleInput.addEventListener('change', () =>{
   switchTheme();
@@ -13,6 +16,12 @@ toggleInput.addEventListener('change', () =>{
 function switchTheme(){
   $body.classList.toggle('light--mode');
   $header.classList.toggle('header--light');
+  $modalOne.classList.toggle('modal--light');
+  $modalSecond.classList.toggle('modal--light-2');
+
+  $social.forEach(item => {
+    item.classList.toggle('svg-light')
+  })
 }
 
 $portfolio.addEventListener('click', () => {
