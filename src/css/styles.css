@@ -62,6 +62,7 @@ body.light--mode{
 }
 
 .nav__lang{
+  cursor: pointer;
   color: inherit;
   margin-right: 10px;
   text-decoration: none;

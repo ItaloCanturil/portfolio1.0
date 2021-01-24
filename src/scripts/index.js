@@ -3,6 +3,7 @@ const toggleInput = document.querySelector('.toggle'),
       $header = document.querySelector('.header'),
       $figureCaption = document.querySelectorAll('.figure__caption'),
       $portfolio = document.querySelector('.nav__portfolio'),
+      $about = document.querySelector('.nav__about'),
       $lang = document.querySelectorAll('.nav__lang');
 
 toggleInput.addEventListener('change', () =>{
@@ -19,6 +20,13 @@ $portfolio.addEventListener('click', () => {
     top: 640,
     behavior: 'smooth'
   });
+})
+
+$about.addEventListener('click', () => {
+  window.scrollTo({
+    top: 1280,
+    behavior: 'smooth'
+  })
 })
 
 function switchLang(){
