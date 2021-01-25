@@ -24,14 +24,14 @@ function switchTheme(){
   })
 }
 
-$portfolio.addEventListener('click', () => {
+$about.addEventListener('click', () => {
   window.scrollTo({
     top: 640,
     behavior: 'smooth'
   });
 })
 
-$about.addEventListener('click', () => {
+$portfolio.addEventListener('click', () => {
   window.scrollTo({
     top: 1280,
     behavior: 'smooth'

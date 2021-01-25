@@ -187,6 +187,7 @@ body.light--mode{
 }
 
 .portfolio{
+  height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -232,6 +233,13 @@ body.light--mode{
 .card__title {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   text-decoration: underline;
+}
+
+.figure__clock {
+  border-radius: 10px;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .link__img {
