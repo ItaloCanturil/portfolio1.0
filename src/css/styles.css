@@ -307,6 +307,35 @@ body.light--mode{
   color: #000;
 }
 
+.email {
+  max-width: 700px;
+}
+
+.email__title {
+  font-size: 36px;
+}
+
+.email__description {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  margin: 20px 0 25px 0
+}
+
+.email__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link__animation {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-bottom: 5px;
+  transition: border-bottom 0.2s ease 0s;
+}
+
+.link__animation:hover {
+  border-bottom: 2px solid transparent;
+}
+
 .footer {
   width: 100%;
   text-align: center;
