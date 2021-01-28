@@ -45,7 +45,9 @@ function switchLang(){
         $pomodoroDescription = document.querySelector('.card--1__description'),
         $skillsTitle = document.querySelector('.skills__title'),
         $skillText = document.querySelector('.skills__text'),
-        $habitDescription = document.querySelector('.card--2__description');
+        $habitDescription = document.querySelector('.card--2__description'),
+        $emailTitle = document.querySelector('.email__title'),
+        $emailDescription = document.querySelector('.email__description');
 
   $lang.forEach(item => {
     item.addEventListener('click', () => {
@@ -62,6 +64,8 @@ function switchLang(){
       $habitDescription.textContent = dados[attr].habit;
       $skillsTitle.textContent = dados[attr].skills;
       $skillText.textContent = dados[attr].text;
+      $emailDescription.textContent = dados[attr].email;
+      $emailDescription.textContent = dados[attr].emailTitle;
     });
   });
 };
@@ -76,7 +80,9 @@ let dados = {
     'countdown': 'Um cronometro para usar a técnica de estudos Pomodoro',
     'habit': 'Um projeto parecido com um To-do só que melhorado',
     'skills': 'Habilidades',
-    'text': 'Através do meus estudos ganhei uma base sólida das skills do Front-end e com essa base tenho dedicado meu tempo livre para aplicar esses conceitos em cenarios reais e aplicações.'
+    'text': 'Através do meus estudos ganhei uma base sólida das skills do Front-end e com essa base tenho dedicado meu tempo livre para aplicar esses conceitos em cenarios reais e aplicações.',
+    'emailTitle': 'Vamos construir algo juntos',
+    'email': 'Sinta-se livre para enviar uma mensagem se você estiver procurando um desenvolvedor, tiver uma pergunta ou apenas quer uma conexão'
   },
 
   'english': {
@@ -86,6 +92,8 @@ let dados = {
     'countdown': 'A countdown that use the Pomodoro tecnic for studies',
     'habit': 'A project like a To-do list but better',
     'skills': 'Skills',
-    'text': "Through my studies I've made a strong knowledge base and with it and through dedication I've improved creating real concept projects"
+    'text': "Through my studies I've made a strong knowledge base and with it and through dedication I've improved creating real concept projects",
+    'emailTitle': "Let's build something together",
+    'email': 'Feel free to reach out if you´re looking for a developer, have a question, or just want to connect'
   } 
 }
