@@ -176,6 +176,7 @@ body.light--mode{
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   margin-bottom: 30px;
   line-height: 150%;
+  max-width: 700px;
 }
 
 .skills__list {
@@ -203,7 +204,6 @@ body.light--mode{
   font-size: 36px;
   margin-bottom: 50px;
   position: relative;
-  text-align: center;
   text-decoration: underline;
   z-index: -1;
 }
