@@ -337,12 +337,19 @@ body.light--mode{
 }
 
 .footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
   width: 100%;
-  text-align: center;
 }
 
 .footer__author, .footer__description {
   margin-bottom: 10px;
+}
+
+.description__socials {
+  margin-left: 10px;
 }
 
 @media (max-width: 680px){
