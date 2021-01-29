@@ -65,7 +65,7 @@ function switchLang(){
       $skillsTitle.textContent = dados[attr].skills;
       $skillText.textContent = dados[attr].text;
       $emailDescription.textContent = dados[attr].email;
-      $emailDescription.textContent = dados[attr].emailTitle;
+      $emailTitle.textContent = dados[attr].emailTitle;
     });
   });
 };
