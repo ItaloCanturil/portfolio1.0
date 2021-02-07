@@ -33,7 +33,7 @@ $about.addEventListener('click', () => {
 
 $portfolio.addEventListener('click', () => {
   window.scrollTo({
-    top: 1280,
+    top: 1060,
     behavior: 'smooth'
   })
 })
