@@ -20,9 +20,27 @@ function switchTheme(){
   $modalSecond.classList.toggle('modal--light-2');
 
   $social.forEach(item => {
-    item.classList.toggle('svg-light')
+    item.classList.toggle('svg-light');
   })
+
+  if($body.classList.contains('light--mode')){
+    localStorage.setItem('theme', 'light--mode');
+  } else {
+    localStorage.removeItem('theme');
+  }
 }
+
+function searchThemes () {
+  let theme = localStorage.getItem('theme')
+  if(theme === 'light--mode') {
+    $body.classList.toggle('light--mode');
+    $header.classList.toggle('header--light');
+    $modalOne.classList.toggle('modal--light');
+    $modalSecond.classList.toggle('modal--light-2');
+  }
+}
+
+window.onload = searchThemes()
 
 $about.addEventListener('click', () => {
   window.scrollTo({

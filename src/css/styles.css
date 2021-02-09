@@ -90,7 +90,7 @@ body.light--mode{
   position: absolute;
 }
 
-.switch__ball{
+.switch__ball {
   background: #f2f2f2;
   border-radius: 50%;
   width: 22px;
@@ -99,16 +99,16 @@ body.light--mode{
   transition: 200ms linear;
 }
 
-.toggle:checked + .switch .switch__ball{
+.toggle:checked + .switch .switch__ball {
   background: #000;
   transform: translateX(24px);
 }
 
-.toggle:checked + .switch{
+.toggle:checked + .switch {
   background: #E8DDCB;
 }
 
-.main{
+.main {
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -117,31 +117,31 @@ body.light--mode{
   height: 100vh;
 }
 
-.photo__img{
+.photo__img {
   border-radius: 30px;
   width: 200px;
   height: 248px;
 }
 
-.org{
+.org {
   display: flex;
   flex-direction: column;
   margin-left: 56px;
 }
 
-.main__name{
+.main__name {
   font-size: 48px;
   padding: 15px 0 15px 0;
 }
 
-.main__name:after{
+.main__name:after {
   content: '|';
   margin-left: 5px;
   opacity: 1;
   animation: blink .5s infinite
 }
 
-@keyframes blink{
+@keyframes blink {
   0%, 100%{
     opacity: 1;
   }
@@ -150,16 +150,16 @@ body.light--mode{
   }
 }
 
-.main__phrase{
+.main__phrase {
   font-size: 18px;
 }
 
-.main__social{
+.main__social {
   display: flex;
   margin-top: 15px;
 }
 
-.fig__svg{
+.fig__svg {
   fill: #f2f2f2;
 }
 
@@ -187,20 +187,20 @@ body.light--mode{
   width: 100%;
 }
 
-.portfolio{
+.portfolio {
   height: 100vh;
   width: 100%;
   position: relative;
 }
 
-.organization{
+.organization {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   height: 80vh;
 }
 
-.portfolio__title, .skills__title{
+.portfolio__title, .skills__title {
   font-size: 36px;
   margin-bottom: 50px;
   position: relative;
